@@ -2,14 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <!--<LangVersion>10</LangVersion>-->
 
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>AceCSharp.DataFaker</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <Authors>Dimitrie Tataru</Authors>
     <Company>A C E</Company>
     <Description>C# Data Faker</Description>
