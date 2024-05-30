@@ -5,6 +5,7 @@
     <OutputType>Exe</OutputType>
 
     <Nullable>enable</Nullable>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
     <ImplicitUsings>disable</ImplicitUsings>
   </PropertyGroup>
 
