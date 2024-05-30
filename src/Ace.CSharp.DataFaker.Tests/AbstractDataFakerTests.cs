@@ -26,7 +26,7 @@ public sealed class AbstractDataFakerTests
         AbstractDataFaker<FakeEntity> fakeEntity = new FakeEntity();
 
         // Act
-        var action = () => fakeEntity.Of<BarEntity>();
+        var action = fakeEntity.Of<BarEntity>;
 
         // Assert
         action.Should().Throw<InstanceFakerNotFoundException<BarEntity, FakeEntity>>();
